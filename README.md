@@ -42,6 +42,6 @@ Datasource: https://developers.themoviedb.org/3/getting-started/introduction
  node server
  ```
 
-## Postman Docs
+## Docs
 
 Link: https://docs.google.com/document/d/1C_W6QS5_L5ukK6HBIwX3faAxuF5xj8Aznpst7hVBB3A/edit?usp=sharing
