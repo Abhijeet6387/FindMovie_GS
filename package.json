@@ -1,0 +1,36 @@
+{
+  "name": "growsimplee",
+  "version": "1.0.0",
+  "description": "Grow Simplee Assignement",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "test": "NODE_ENV=test nyc mocha --recursive --exit"
+  },
+  "keywords": [
+    "REST",
+    "Auth",
+    "Logic"
+  ],
+  "author": "AbhijeetSMishra",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "commander": "^9.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0",
+    "supertest": "^6.2.2"
+  }
+}
